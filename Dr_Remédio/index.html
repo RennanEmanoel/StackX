@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.png">
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>Dr. Remédio Amargo</title>
+    <script src="./js/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h2>Alimentação Saudável</h2>
+        <ul class="menu">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#our-plans">Nossos Planos</a></li>
+            <li><a href="#about-us">Sobre Nós</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+    <main id="home">
+        <div class="name-logo">            
+            <h1>Dr. Remédio Amargo <i class="fas fa-seedling"></i></h1>            
+        </div>    
+        <video  class="main-video" src="./videos/Kitchen - 3510.mp4" loop muted autoplay></video>
+    </main>
+    <section id="our-plans">
+            <h2>Nossos Planos</h2>
+            <div class="row" style="margin-left: 0em; text-align: center;">
+                <div class="col-lg-4">
+                    <img src="./img/01.jpg" alt="Emagrecer" class="rounded-circle" style="width: 200px;height: 200px;">
+                    <h3>Light</h3>
+                    <p>Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. 
+                    Nemo commodi, corporis natus e
+                    veniet inventore reiciendis obc
+                    aecati est perspiciatis provide
+                    nt illum tempora iusto amet ab 
+                    eos sint? Vel a cupiditate reprehenderit?</p>
+                    <p class="text-muted">R$200,00</p>
+                    <a href="#" class="btn btn-secondary" onclick="light()" id="light">Ver Mais &raquo;</a>
+                </div>    
+                <div class="col-lg-4">
+                    <img src="./img/02.png" alt="Emagrecer" class="rounded-circle" style="width: 200px;height: 200px;">
+                    <h3>Super</h3>
+                    <p>Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. 
+                    Nemo commodi, corporis natus e
+                    veniet inventore reiciendis obc
+                    aecati est perspiciatis provide
+                    nt illum tempora iusto amet ab 
+                    eos sint? Vel a cupiditate reprehenderit?</p>
+                    <p class="text-muted">R$400,00</p>
+                    <a href="#" class="btn btn-secondary" onclick="vsuper()"id="super">Ver Mais &raquo;</a>
+                </div>    
+                <div class="col-lg-4">
+                    <img src="./img/03.jpeg" alt="Emagrecer" class="rounded-circle" style="width: 200px;height: 200px;">
+                    <h3>Extreme</h3>
+                    <p>Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. 
+                    Nemo commodi, corporis natus e
+                    veniet inventore reiciendis obc
+                    aecati est perspiciatis provide
+                    nt illum tempora iusto amet ab 
+                    eos sint? Vel a cupiditate reprehenderit?</p>
+                    <p class="text-muted">R800,00</p>
+                    <a href="#" class="btn btn-secondary" id="extreme" onclick="vextreme()">Ver Mais &raquo;</a>
+                </div>    
+            </div>
+    </section>
+    <section id="about-us">
+        <img src="./img/doctors-3.png" alt="Dois Doutores" title="Sobre Nós">
+        <div class="text">
+            <h1 class="featurette-heading">Sobre nós</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            A, quibusdam veritatis. Eaque libero consequuntur qui in ear
+            um dolores debitis. Aperiam nostrum culpa, cupiditate hic de
+            bitis totam maxime consequatur aliquam maiores!
+            Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. 
+            Ipsum alias numquam necessitatibus, sint asperiores velit atque. U
+            t voluptates commodi ab repudiandae! Tempore reprehenderit possi
+            mus corrupti! Facere sit itaque nostrum consectetur.
+            </p>
+            <button class="btn-btn-primary" onclick="sobre()" style="border: none;background-color: rgb(253, 151, 0);color: #fff;border-radius: 5px; padding: 2px 13px;margin-left: 4em">Saiba Mais!</button>    
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="contact">
+            <h2>Contato</h2>
+            <ul>
+                <li>(XX) XXXX-XXXX</li>
+                <li>drremedioamargo@gmail.com</li>
+                <li><a href="../Site_Dr-Remédio/index.html" style="color:rgb(175, 14, 14);font-family:bree serif; text-decoration: none;">Sistema De Atendimento</a></li>
+            </ul>
+        </div>
+        <div class="adreess">
+            <h2>Endereço</h2>
+            <ul>
+                <li>Rua das Palmeiras</li>
+                <li>Joinville, SC</li>
+                <li>89210-040</li>
+            </ul>
+        </div>
+        <div class="working">
+            <h2>Funcionamento</h2>
+            <ul>
+                <li>Segunda a Sexta</li>
+                <li>9:00 - 20:00</li>
+                <li>Sábado e Domingo</li>
+                <li>12:00 - 19:30</li>
+            </ul>
+        </div>
+        <h5 style="position: absolute;">Rennan Emanoel 2021 - &copy; Copyright</h5>
+    </footer>
+    <script src="https://kit.fontawesome.com/bea261c949.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

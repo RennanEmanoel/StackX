@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: bree serif;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color:  #0bca35;
+    height: 5em;
+    color: #f1ecec;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+header h2 {
+    font-size: 2em;
+    margin-top: .5em;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+    float: right;
+    margin-top: 1.5em;
+    display: flex;
+}
+header li a{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 1.3em;
+    color: #f1ecec;
+}
+.main-video {
+    width: 100%; 
+}
+.name-logo h1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: 6em;
+    top: 5em;
+    font-size: 4em;
+    color: rgb(255, 153, 0);
+}
+.name-logo h2 {
+    font-size: 6em; 
+}
+.name-logo i {
+    color: rgb(88, 252, 47);
+}
+/* Nossos planos */
+#our-plans {
+    margin-bottom: 7em;
+}
+#our-plans .col-lg-4 a{
+    font-family: Bree-serif;
+    background-color: rgb(255, 153, 0);
+    border: none;
+}
+#our-plans img {
+    border: 2px solid rgb(202, 150, 6);
+    box-shadow: 6px 2px 18px black;
+}
+#our-plans h2 {
+    border-top: 13px solid rgb(255, 153, 0);
+    padding-top: 2.5em;
+    margin-top: -.2em;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 3em;
+    color: rgb(255, 153, 0);;
+}
+#button {
+    position: absolute;
+    font-family: bree serif;
+    margin-top: 9.5em;
+    z-index: 1;
+    background-color: rgb(216, 133, 9);
+    color: #ffffff;
+    font-size: 1.5em;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 1px;
+}
+/* Sobre Nós */
+#about-us {
+    /* background-color: rgba(175, 252, 229, 0.479); */
+    display: flex;
+    color: rgb(235, 112, 30);
+    font-size: 1.2em;
+}
+.text {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 2em;
+    font-family: bree serif;
+    opacity: .8;
+}
+.text h1 {
+    margin: 3em 0em .5em 1em;
+}
+.text p {
+    line-height: 2em;
+}
+
+/* Footer */
+footer {
+    color: #ffffff;
+    background-color: #0bca35;
+    padding-top: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1px;
+}
+footer ul {
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+footer ul li {
+    line-height: 2em;
+    font-size: 1em;
+}
+footer h5 {
+    bottom: .4em;
+    left: 26em;
+}
+.contact {
+    margin-left: 50px;
+}
+.working {
+    margin-right: 50px;
+
+}
